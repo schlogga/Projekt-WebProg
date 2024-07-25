@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "username": "Manuel",
+    "password": "test123",
+    "email": "manuel.richardt@ai.hs-fulda.de",
+    "role": "Standard",
+    "created": "2024-05-27T09:22:25.629Z"
+  },
+  {
+    "id": 1,
+    "username": "Dominik",
+    "password": "test123",
+    "email": "dominik.rupprecht@ai.hs-fulda.de",
+    "role": "Administrator",
+    "created": "2024-05-27T09:22:31.965Z"
+  }
+]

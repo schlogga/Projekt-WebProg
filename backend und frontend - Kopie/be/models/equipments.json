@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "articlenumber": 1235,
+    "title": "Screwdriver",
+    "pic": "",
+    "description": "A screwdriver is a tool, manual or powered, used for screwing (installing) and unscrewing (removing) screws.",
+    "count": 5,
+    "userid": 1
+  },
+  {
+    "id": 1,
+    "articlenumber": "879",
+    "title": "89pu",
+    "pic": "",
+    "description": "p98uj",
+    "count": "8",
+    "userid": "1"
+  }
+]

@@ -1,0 +1,26 @@
+<!-- 
+    When ever this is used somewhere, the 'data' array needs objects with:
+    {label, type, value, placeholder}
+-->
+
+<div>
+    <form action="/create" method="POST">
+        <% let index = 0 %>
+        <% data.forEach(d => { %>
+            <div class="form-group">
+                <label for="<%= index %>"><%= d.label %></label>
+                <input 
+                    placeholder="<%= d.placeholder %>" 
+                    value="<%= d.value %>" 
+                    type="<%= d.type %>" 
+                    class="form-control" 
+                    name="<%= d.label.toLowerCase() %>" 
+                    id="<%= index %>"
+                >
+            </div>
+        <% index++ %> 
+        <% }) %>
+
+        <button type="submit" class="btn btn-primary">Finish</button>
+    </form>
+</div>
